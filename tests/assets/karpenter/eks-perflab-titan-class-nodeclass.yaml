@@ -7,6 +7,7 @@ spec:
   amiSelectorTerms:
   - alias: "al2023@${ALIAS_VERSION}"
   instanceProfile: KarpenterNodeInstanceProfile-${CLUSTER_NAME}"
+  ipPrefixCount: 1
   kubelet:
     evictionHard:
       memory.available: 5%

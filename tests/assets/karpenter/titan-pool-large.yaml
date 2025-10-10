@@ -8,7 +8,7 @@ spec:
     - nodes: 10%
     consolidateAfter: 0s
     consolidationPolicy: WhenEmptyOrUnderutilized
-  replicas: 1 # 1000
+  replicas: 20 # 1000
   template:
     spec:
       expireAfter: 720h
