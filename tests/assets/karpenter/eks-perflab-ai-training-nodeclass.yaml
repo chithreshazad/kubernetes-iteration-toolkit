@@ -12,7 +12,6 @@ spec:
       deleteOnTermination: true
       volumeSize: 70Gi
       volumeType: gp3
-  ipPrefixCount: 1
   kubelet:
     evictionHard:
       memory.available: 5%
