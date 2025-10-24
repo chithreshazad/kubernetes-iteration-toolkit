@@ -5,7 +5,13 @@ metadata:
 spec:
   disruption:
     budgets:
-    - nodes: 0%
+    - nodes: 100%
+      reasons:
+      - Empty
+    - nodes: 10%
+      reasons:
+      - Drifted
+      - Underutilized
     consolidateAfter: 0s
     consolidationPolicy: WhenEmpty
   replicas: 5
